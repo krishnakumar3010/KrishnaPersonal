@@ -197,11 +197,9 @@ prints progress as it goes.
 **Reboot when it asks you to.** The install is not finished until you do.
 
 **After the reboot**, an Ubuntu window opens on its own and says something like
-`Installing, this may take a few minutes...`. Then it asks:
-
-```
-Create a default/new UNIX user account:
-```
+`Installing, this may take a few minutes...`. Then it asks you to create a username. The exact
+wording can vary by WSL version, for example `Create a default/new UNIX user account:` or
+`Enter new UNIX username:`. Either way, it wants the same thing:
 
 - Type something **short and lowercase**, for example `suriya` or `priya`. No spaces, no capitals.
 - Press Enter. It then asks for a password, twice.

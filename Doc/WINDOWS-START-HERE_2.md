@@ -200,7 +200,7 @@ prints progress as it goes.
 `Installing, this may take a few minutes...`. Then it asks:
 
 ```
-Enter new UNIX username:
+Create a default/new UNIX user account:
 ```
 
 - Type something **short and lowercase**, for example `suriya` or `priya`. No spaces, no capitals.
@@ -223,6 +223,8 @@ whoami
 ```
 
 It should print a username. That is the one you already have.
+
+If all good, then close and reopen the terminal.
 
 ### 1.5 Confirm you are on WSL version 2
 
